@@ -21,13 +21,13 @@ class CanvasTable extends Component {
   async onSaveLog() {
     var wayDirection = "";
     var way = this.props.direction;
-    if (way.robotDirection == 1) {
+    if (way.robotDirection === 1) {
       wayDirection = "NORTH";
-    } else if (way.robotDirection == 2) {
+    } else if (way.robotDirection === 2) {
       wayDirection = "EAST";
-    } else if (way.robotDirection == 3) {
+    } else if (way.robotDirection === 3) {
       wayDirection = "SOUTH";
-    } else if (way.robotDirection == 4) {
+    } else if (way.robotDirection === 4) {
       wayDirection = "WEST";
     }
 
